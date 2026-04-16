@@ -8,11 +8,25 @@
 
 <body>
 
-    <h1>Campus Event Hub</h1>
+    <h1>Campus Event Hub 🎓</h1>
+
+    <p id="weather">Loading weather...</p>
 
     <input type="text" id="search" placeholder="Search events...">
 
+    <h3>⭐ Favorites</h3>
+    <div id="favorites"></div>
+
+    <h3>📅 Events</h3>
     <div id="events"></div>
+
+    <!-- MODAL -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="close">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
