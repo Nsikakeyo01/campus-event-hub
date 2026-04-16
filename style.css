@@ -20,6 +20,10 @@ body {
     transform: scale(1.05);
 }
 
+.event:active {
+    transform: scale(0.98);
+}
+
 button {
     margin-top: 5px;
     padding: 5px;
@@ -27,6 +31,19 @@ button {
     background: blue;
     color: white;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkblue;
+}
+
+h3 {
+    transition: 0.3s;
+}
+
+h3:hover {
+    color: darkblue;
 }
 
 /* MODAL */
